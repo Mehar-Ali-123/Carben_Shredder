@@ -1,38 +1,40 @@
-
-import profilePic from "../images/user/user-06.png";
+  
+import starterPlan from "../images/icon/starterPlan.svg";
+import mostPopular from "../images/icon/mostPopular.svg";
+import scalePlan from "../images/icon/scalePlan.svg";
 
 function SubcriptionCard() {
   return (
     <>
       <section className="text-gray-700 body-font overflow-hidden">
-        <div className="container px-5 py-12 mx-auto flex flex-wrap">
+        <div className="container px-5 py-6 mx-auto flex flex-wrap">
           <div className="lg:w-1/4 mt-48 hidden lg:block">
             <div className="mt-px         rounded-tl-lg rounded-bl-lg overflow-hidden">
-              <p className="bg-[#FBF4DB] text-gray-900 h-12 text-center px-4 flex items-center justify-start -mt-px">
+              <p className="bg-[#FBF4DB]  mt-7 text-black h-12 text-center px-4 flex items-center justify-start">
                 Fingerstache disrupt
               </p>
-              <p className="text-gray-900 h-12 text-center px-4 flex items-center justify-start">
+              <p className="text-black h-12 text-center px-4 flex items-center justify-start">
                 Franzen hashtag
               </p>
-              <p className="bg-[#FBF4DB] text-gray-900 h-12 text-center px-4 flex items-center justify-start">
+              <p className="bg-[#FBF4DB] text-black h-12 text-center px-4 flex items-center justify-start">
                 Tilde art party
               </p>
-              <p className="text-gray-900 h-12 text-center px-4 flex items-center justify-start">
+              <p className="text-black h-12 text-center px-4 flex items-center justify-start">
                 Banh mi cornhole
               </p>
-              <p className="bg-[#FBF4DB] text-gray-900 h-12 text-center px-4 flex items-center justify-start">
+              <p className="bg-[#FBF4DB] text-black h-12 text-center px-4 flex items-center justify-start">
                 Waistcoat squid hexagon
               </p>
-              <p className="text-gray-900 h-12 text-center px-4 flex items-center justify-start">
+              <p className="text-black h-12 text-center px-4 flex items-center justify-start">
                 Pinterest occupy authentic
               </p>
-              <p className="bg-[#FBF4DB] text-gray-900 h-12 text-center px-4 flex items-center justify-start">
+              <p className="bg-[#FBF4DB] text-black h-12 text-center px-4 flex items-center justify-start">
                 Brooklyn helvetica
               </p>
-              <p className="text-gray-900 h-12 text-center px-4 flex items-center justify-start">
+              <p className="text-black h-12 text-center px-4 flex items-center justify-start">
                 Long Feature Two
               </p>
-              <p className="bg-[#FBF4DB] text-gray-900 h-12 text-center px-4 flex items-center justify-start">
+              <p className="bg-[#FBF4DB] text-black h-12 text-center px-4 flex items-center justify-start">
                 Feature One
               </p>
             </div>
@@ -41,24 +43,26 @@ function SubcriptionCard() {
             <div className="lg:w-1/3 lg:mt-px w-full mb-10 lg:mb-0    -none rounded-lg lg:rounded-none">
               <div className="px-2 text-center h-48 flex flex-col items-center justify-center">
                 <img
-                  src={profilePic}
-                  className=" object-cover w-14 h-14 bg-gray-300 rounded-full mb-2 shrink-0"
+                  src={starterPlan}
+                  className="mt-7  object-cover w-14 h-14 bg-gray-300 rounded-full mb-2 shrink-0"
                 />
-                <h2 className=" text-4xl text-gray-900 font-medium leading-none  mb-2   ">
-                  Free
+                <p className="text-md font-semibold text-black">Starter plan</p>
+                   <h2 className=" text-4xl text-black font-medium flex items-center justify-center leading-none  mb-2   ">
+                  $189
+                  <span className="text-gray-600 text-base ml-1">/mo</span>
                 </h2>
                 <span className="text-sm text-gray-600 py-1">Recurring every month</span>
                 <div>
-                  <button className="text-white bg-primary   py-2 px-12 w-full   rounded-lg text-center">
+                  <button className="text-white bg-[#77CFB8]   py-2  rounded-lg text-center w-[180px]">
                     Start Trial
                   </button>
                 </div>
               </div>
-              <p className="bg-[#FBF4DB] text-gray-600 h-12 text-center px-2 flex items-center -mt-px justify-center    ">
+              <p className="bg-[#FBF4DB] mt-7 text-gray-600 h-12 text-center px-2 flex items-center   justify-center    ">
                 Schlitz single-origin
               </p>
               <p className="text-gray-600 text-center h-12 flex items-center justify-center">
-                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0 bg-[#6B7280]">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -72,8 +76,8 @@ function SubcriptionCard() {
                   </svg>
                 </span>
               </p>
-              <p className="bg-[#FBF4DB] text-gray-600 text-center h-12 flex items-center justify-center">
-                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+              <p className="bg-[#FBF4DB] text-gray-600 text-center h-12 flex items-center justify-center"> 
+                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0 bg-[#6B7280]">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -91,7 +95,7 @@ function SubcriptionCard() {
                 Feature
               </p>
               <p className="bg-[#FBF4DB] text-gray-600 text-center h-12 flex items-center justify-center">
-                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0 bg-[#6B7280]">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -163,29 +167,31 @@ function SubcriptionCard() {
                 </p>
               </div>
             </div>
-            <div className="lg:w-1/3 lg:-mt-px w-full mb-10 lg:mb-0 border-2 rounded-lg border-primary relative">
-              <span className="bg-primary text-white px-3 py-1  text-xs absolute rounded-md right-3 top-[-15px] ">
+            <div className="lg:w-1/3 lg:-mt-px w-full mb-10 lg:mb-0 border-2 rounded-lg border-[#77CFB8] relative">
+              <span className="bg-[#77CFB8] text-white px-3 py-1  text-xs absolute rounded-md right-3 top-[-15px] ">
                 POPULAR
               </span>
               <div className="px-2 text-center h-48 flex flex-col items-center justify-center">
                 <img
-                  src={profilePic}
-                  className=" object-cover w-14 h-14 bg-gray-300 rounded-full mb-2 shrink-0"
+                  src={mostPopular}
+                  className="mt-7  object-cover w-14 h-14 bg-gray-300 rounded-full mb-2 shrink-0"
                 />
-                <h2 className=" text-4xl text-gray-900 font-medium flex items-center justify-center leading-none  mb-2   ">
-                  $38
+                
+                <p className="text-md font-semibold text-black">Growth plan</p>
+                <h2 className=" text-4xl text-black font-medium flex items-center justify-center leading-none  mb-2   ">
+                $289
                   <span className="text-gray-600 text-base ml-1">/mo</span>
                 </h2>
                 <span className="text-sm text-gray-600 py-1">Recurring every month</span>
-                <button className=" text-white bg-primary   py-2 px-12 w-full   rounded-lg text-center">
+                <button className=" text-white bg-[#77CFB8]   py-2   rounded-lg text-center w-[180px]">
                   Start Trial
                 </button>
               </div>
-              <p className="bg-[#FBF4DB] text-gray-600 h-12 text-center px-2 flex items-center -mt-px justify-center    ">
+              <p className="bg-[#FBF4DB]  mt-7 text-gray-600 h-12 text-center px-2 flex items-center  justify-center    ">
                 Schlitz single-origin
               </p>
               <p className="text-gray-600 text-center h-12 flex items-center justify-center">
-                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0 bg-[#6B7280]">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -200,7 +206,7 @@ function SubcriptionCard() {
                 </span>
               </p>
               <p className="bg-[#FBF4DB] text-gray-600 text-center h-12 flex items-center justify-center">
-                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0 bg-[#6B7280]">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -218,7 +224,7 @@ function SubcriptionCard() {
                 Feature
               </p>
               <p className="bg-[#FBF4DB] text-gray-600 text-center h-12 flex items-center justify-center">
-                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0 bg-[#6B7280]">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -233,7 +239,7 @@ function SubcriptionCard() {
                 </span>
               </p>
               <p className="text-gray-600 text-center h-12 flex items-center justify-center">
-                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0 bg-[#6B7280]">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -296,27 +302,28 @@ function SubcriptionCard() {
             <div className="lg:w-1/3 w-full lg:mt-px   -none rounded-lg lg:rounded-none">
               <div className="px-2 text-center h-48 flex flex-col items-center justify-center">
                 <img
-                  src={profilePic}
-                  className=" object-cover w-14 h-14 bg-gray-300 rounded-full mb-2 shrink-0"
+                  src={scalePlan}
+                  className=" mt-7  object-cover w-14 h-14 bg-gray-300 rounded-full mb-2 shrink-0"
                 />
-                <h2 className=" text-4xl text-gray-900 font-medium flex items-center justify-center leading-none  mb-2   ">
-                  $54
+                <p className="text-md font-semibold text-black">Scale plan</p>
+                <h2 className=" text-4xl text-black font-medium flex items-center justify-center leading-none  mb-2   ">
+                  $499
                   <span className="text-gray-600 text-base ml-1">/mo</span>
                 </h2>
                 <span className="text-sm text-gray-600 py-1">Recurring every month</span>
                 <div>
                 <div>
-                  <button className="text-white bg-primary   py-2 px-12 w-full   rounded-lg text-center">
+                  <button className="text-white bg-[#77CFB8]   py-2  rounded-lg text-center w-[180px]">
                     Start Trial
                   </button>
                 </div>
                 </div>
               </div>
-              <p className="bg-[#FBF4DB] text-gray-600 h-12 text-center px-2 flex items-center -mt-px justify-center    ">
+              <p className="bg-[#FBF4DB]  mt-7 rounded-tr-lg text-gray-600 h-12 text-center px-2 flex items-center  justify-center    ">
                 Schlitz single-origin
               </p>
               <p className="text-gray-600 text-center h-12 flex items-center justify-center">
-                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0 bg-[#6B7280]">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -331,7 +338,7 @@ function SubcriptionCard() {
                 </span>
               </p>
               <p className="bg-[#FBF4DB] text-gray-600 text-center h-12 flex items-center justify-center">
-                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0 bg-[#6B7280]">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -349,7 +356,7 @@ function SubcriptionCard() {
                 Feature
               </p>
               <p className="bg-[#FBF4DB] text-gray-600 text-center h-12 flex items-center justify-center">
-                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0 bg-[#6B7280]">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -402,7 +409,7 @@ function SubcriptionCard() {
                   <path d="M18 6L6 18M6 6l12 12"></path>
                 </svg>
               </p>
-              <p className="bg-[#FBF4DB] text-gray-600 text-center h-12 flex items-center justify-center">
+              <p className="bg-[#FBF4DB] rounded-br-lg text-gray-600 text-center h-12 flex items-center justify-center">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -429,4 +436,4 @@ function SubcriptionCard() {
   );
 }
 
-export default SubcriptionCard;
+export default SubcriptionCard; 

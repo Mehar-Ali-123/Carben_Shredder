@@ -1,6 +1,6 @@
 import Breadcrumb from '../../components/Breadcrumbs/Breadcrumb';
 import DefaultLayout from '../../layout/DefaultLayout';
-import userImg from '../../images/user/user-01.png';
+import userImg from '../../images/user/founder-img.jpeg';
 const FormElements = () => {
   return (
     <DefaultLayout>
@@ -78,7 +78,7 @@ const FormElements = () => {
                   src={userImg}
                   alt=""
                 />
-                <span>Ali Hussnain Jamil</span>
+                <span>Thijin Felix</span>
               </div>
               <div className="w-[40%] flex justify-evenly items-center">
                 <span className='w-[50%]  text-center' > 27-feb-2024</span>
@@ -104,7 +104,7 @@ const FormElements = () => {
                   src={userImg}
                   alt=""
                 />
-                <span>Ali Hussnain Jamil</span>
+                <span>Thijin Felix</span>
               </div>
               <div className="w-[40%] flex justify-evenly items-center">
                 <span className='w-[50%]  text-center' > 27-feb-2024</span>
@@ -129,7 +129,7 @@ const FormElements = () => {
                   src={userImg}
                   alt=""
                 />
-                <span>Ali Hussnain Jamil</span>
+                <span>Thijin Felix</span>
               </div>
               <div className="w-[40%] flex justify-evenly items-center">
                 <span className='w-[50%]  text-center' > 27-feb-2024</span>
@@ -154,7 +154,7 @@ const FormElements = () => {
                   src={userImg}
                   alt=""
                 />
-                <span>Ali Hussnain Jamil</span>
+                <span>Thijin Felix</span>
               </div>
               <div className="w-[40%] flex justify-evenly items-center">
                 <span className='w-[50%]  text-center' > 27-feb-2024</span>
@@ -179,7 +179,7 @@ const FormElements = () => {
                   src={userImg}
                   alt=""
                 />
-                <span>Ali Hussnain Jamil</span>
+                <span>Thijin Felix</span>
               </div>
               <div className="w-[40%] flex justify-evenly items-center">
                 <span className='w-[50%]  text-center' > 27-feb-2024</span>
